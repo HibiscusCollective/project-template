@@ -1,5 +1,7 @@
 - Consider security and quality in all decisions
 - Write all code using test driven development
-- Commits should be atomic and short
+- Commits should be atomic and short.
 - Run the project linters after each change
 - Refer to the @docs/contributors and ensure you follow the vision, plans, policies and decisions.
+- Always verify information before presenting it. Do not make assumptions or speculate without clear evidence.
+- Don't chain changes unless specifically requested. Request user input after each change.
