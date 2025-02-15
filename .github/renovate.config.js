@@ -19,7 +19,7 @@ module.exports = {
         "lockFileMaintenance",
       ],
       dependencyDashboardApproval: false,
-      minimumReleaseAge: "0 days",
+      minimumReleaseAge: "7 days",
     },
     {
       matchUpdateTypes: [
@@ -31,10 +31,12 @@ module.exports = {
         "lockFileMaintenance",
       ],
       groupName: "minor-updates",
+      minimumReleaseAge: "7 days",
     },
     {
       matchUpdateTypes: ["major"],
       label: ["Major Release"],
+      minimumReleaseAge: "7 days",
     },
   ],
 };
