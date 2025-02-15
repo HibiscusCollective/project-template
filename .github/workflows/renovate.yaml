@@ -16,7 +16,7 @@ jobs:
           private-key: ${{ secrets.RENOVATE_PRIVATE_KEY }}
           
       - name: Checkout repository
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        uses: actions/checkout@85e6279cec87321a52edac9c87bce653a07cf6c2
 
       - name: Run Renovate
         uses: renovatebot/github-action@e084b5ac6fd201023db6dd7743aec023babb02c8
