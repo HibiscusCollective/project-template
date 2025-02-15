@@ -35,7 +35,7 @@ module.exports = {
     },
     {
       matchUpdateTypes: ["major"],
-      label: ["Major Release"],
+      labels: ["Major Release"],
       minimumReleaseAge: "7 days",
     },
   ],
