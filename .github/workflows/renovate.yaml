@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@85e6279cec87321a52edac9c87bce653a07cf6c2
 
       - name: Run Renovate
-        uses: renovatebot/github-action@e084b5ac6fd201023db6dd7743aec023babb02c8
+        uses: renovatebot/github-action@35e307a0597c5bef8476daffc1e1000107c49a14
         with:
           configurationFile: .github/renovate.config.js
           token: ${{ steps.get_token.outputs.token }}
