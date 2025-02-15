@@ -6,7 +6,7 @@ module.exports = {
   platform: "github",
   forkProcessing: "enabled",
   dryRun: "full",
-  repositories: ["HibiscusCollective/.github"],
+  repositories: ["HibiscusCollective/project-template"],
   packageRules: [
     {
       description: "lockFileMaintenance",
