@@ -1,24 +1,85 @@
-## Ignore all by default
+##### Deny all #####
 *
 
-## Allow config
-!.github/
-!.vscode/
-!.gitignore
-!.windsurfrules
-!.editorconfig
+###### Code ########
+!Cargo.lock
+!Cargo.toml
+!rust-toolchain.toml
+!*.rs
 
-## Allow package management
-!mise.toml
+!bun.lock
+!tsconfig.json
+!package-lock.json
 
-## Allow documentation
-!docs/
+!src/ui/**/default.json
+
+##### Linters ######
+!.config
+!.linters
+# Commits
+!.czrc
+!commitlint.config.ts
+# Markdown
+!.markdownlint-cli2.jsonc
+# Spelling
+!.cspell.json
+# Rust
+!.clippy.toml
+!.rustfmt.toml
+# JS/TS
+!.prettierignore
+
+## Documentation ###
+!docs
 !docs/**/
 !docs/**/*.md
-
-!licenses/
-!licenses/*.txt
-!licenses/*.md
-
 !LICENSE
 !README.md
+
+##### Branding #####
+!branding/
+
+#### Workspace #####
+!.editorconfig
+!.gitignore
+!.gitattributes
+!.lefthook.yml
+!.mise.toml
+!tasks.*.toml
+!package.json
+
+##### Pipeline #####
+!.github
+!.github/workflows
+# Github Actions
+!CODEOWNERS
+!renovate.yaml
+!renovate.json
+!renovate.config.js
+!rust-lint.yml
+!scorecard.yaml
+
+######## AI ########
+!.windsurfrules
+
+##### Modules ######
+!crates/
+!crates/lib
+!crates/cli
+!crates/os
+!crates/**/src
+!crates/**/testdata
+
+!crates/**/testdata/*.tar.gz
+!crates/**/testdata/fake_app
+!crates/**/testdata/fake_app/*
+
+#### LFS Assets ####
+!**/*.png
+!**/*.svg
+!**/*.ico
+!**/*.icns
+
+# Explicit Ignores #
+**/node_modules
+src/ui/src-tauri/gen/schemas

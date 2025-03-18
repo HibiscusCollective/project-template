@@ -1,4 +1,3 @@
 {
-    "extends": ["config:best-practices", ":disableDependencyDashboard"]
+	"extends": ["config:best-practices", ":disableDependencyDashboard"]
 }
-  
