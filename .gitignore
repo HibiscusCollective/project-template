@@ -28,6 +28,7 @@
 !.rustfmt.toml
 # JS/TS
 !.prettierignore
+!eslint.config.ts
 
 ## Documentation ###
 !docs

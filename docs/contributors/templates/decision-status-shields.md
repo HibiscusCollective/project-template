@@ -14,4 +14,4 @@
 
 ![Rescinded](https://img.shields.io/badge/status-superceded-purple)
 
-Use the overriden badge if an newer decision overrides or reverses an older one.
+Use the overridden badge if an newer decision overrides or reverses an older one.

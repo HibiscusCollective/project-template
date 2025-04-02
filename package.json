@@ -1,5 +1,5 @@
 {
-	"name": "gitfairy",
+	"name": "todo-project-name",
 	"type": "module",
 	"scripts": {
 		"spellcheck": "cspell --config .config/.cspell.json .",
