@@ -17,6 +17,7 @@ The full list of commands can be displayed at any time by running `mise tasks ls
 
 #### Common tasks
 
+- `mise bootstrap`: Bootstrap the project
 - `mise lint`: Run all linting tasks
 - `mise fmt`: Run all formatting tasks
 - `mise fix`: Fix all linting problems that can be automatically fixed

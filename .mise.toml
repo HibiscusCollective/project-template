@@ -17,6 +17,10 @@ config_dir = "{{config_root}}/.config"
 [env]
 CLIPPY_CONF_DIR = "{{vars.config_dir}}"
 
+[tasks.bootstrap]
+description = "Bootstrap the project"
+run = "bun install && lefthook install"
+
 [tasks.fmt]
 description = "Run all formatting tasks"
 depends = ["fmt:*"]

@@ -28,4 +28,4 @@ perf = "deny"
 pedantic = "warn"
 
 [workspace.dependencies]
-lib = { path = "./src/lib" }
+lib = { path = "crates/lib" }
