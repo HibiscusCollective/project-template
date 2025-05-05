@@ -3,5 +3,9 @@
 version = 4
 
 [[package]]
-name = "libtodo_my_project_name"
+name = "todo-bin-dummy"
+version = "0.1.0"
+
+[[package]]
+name = "todo-lib-dummy"
 version = "0.1.0"

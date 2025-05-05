@@ -1,11 +1,9 @@
 [package]
-name = "libtodo_my_project_name"                                                   # This will be the name on crates.io
-description = "TODO: Library description"
-categories = ["TODO: Library categories"]
+name = "todo-bin-dummy"
 version.workspace = true
 authors.workspace = true
 edition.workspace = true
-rust-version.workspace = true
+description.workspace = true
 documentation.workspace = true
 readme.workspace = true
 homepage.workspace = true
@@ -17,3 +15,6 @@ include.workspace = true
 publish.workspace = true
 
 [dependencies]
+
+[lints]
+workspace = true
