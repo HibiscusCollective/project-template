@@ -12,7 +12,7 @@ One paragraph description of the project.
 
 | Priority | Objective                                  | Success Metric                                   |
 |----------|--------------------------------------------|--------------------------------------------------|
-| P0       | {non negociable objectives}                | {measure of success}                             |
+| P0       | {non negotiable objectives}                | {measure of success}                             |
 | P1       | {primary object, must have}                | {metrics should be measurable and provable}      |
 | P2       | {secondary objective, can be deferred}     | {we should be able to track progress over time}  |
 | P3       | {tertiary objective, nice to have}         |                                                  |

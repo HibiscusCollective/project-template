@@ -16,6 +16,8 @@ pre-commit:
           stage_fixed: true
         - name: 'Run linters'
           run: mise run lint
+        - name: 'Run tests'
+          run: mise run test
 
 commit-msg:
     piped: true
