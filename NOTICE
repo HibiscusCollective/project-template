@@ -1,0 +1,57 @@
+SinkChart
+Copyright (C) 2024 SinkChart Contributors
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+================================================================================
+
+This software includes components from the following projects:
+
+Rust Standard Library
+- Licensed under MIT and Apache 2.0 licenses
+- Copyright (c) 2010-2024 The Rust Project Developers
+
+Tauri
+- Licensed under MIT and Apache 2.0 licenses
+- Copyright (c) 2019-2024 Tauri Programme within The Commons Conservancy
+
+Dioxus
+- Licensed under MIT and Apache 2.0 licenses
+- Copyright (c) 2021-2024 Dioxus Labs
+
+Serde
+- Licensed under MIT and Apache 2.0 licenses
+- Copyright (c) 2014-2024 Erick Tryzelaar and David Tolnay
+
+Tokio
+- Licensed under MIT license
+- Copyright (c) 2019-2024 Tokio Contributors
+
+================================================================================
+
+For a complete list of dependencies and their licenses, run:
+cargo tree --format "{p} {l}"
+
+All third-party licenses are compatible with AGPLv3.
+
+================================================================================
+
+Game content and assets are property of their respective owners.
+SinkChart is a tool for creating and managing maps and does not include
+any copyrighted game content.
+
+================================================================================
+
+For questions about licensing or to report license compliance issues,
+please contact the project maintainers through the project repository.
