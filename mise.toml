@@ -1,0 +1,12 @@
+[tools]
+cocogitto = "6.1.0"
+gh = "2.73.0"
+typos = "1.28.3"
+
+[settings]
+# Temporary workaround for slow tool installation (pending mise perf improvements)
+# For faster installs, create mise.local.toml with:
+#   [env]
+#   GITHUB_TOKEN = "your_github_token_here"  # No permissions needed, just for API rate limits
+http_timeout = "120s"
+fetch_remote_versions_timeout = "30s"

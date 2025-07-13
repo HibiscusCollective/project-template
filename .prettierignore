@@ -1,5 +1,0 @@
-**/*.md
-**/*.js
-
-node_modules
-target
